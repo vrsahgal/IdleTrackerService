@@ -1,0 +1,22 @@
+{
+  "Smtp": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "EnableSsl": true,
+    "From": "your-email@gmail.com",
+    "To": "admin-email@example.com",
+    "Username": "your-email@gmail.com",
+    "Password": "YOUR_APP_PASSWORD_HERE"
+  },
+  "Idle": {
+    "ThresholdSeconds": 300, // Idle threshold in seconds (5 minutes = 300)
+    "CheckIntervalMs": 5000, // How often to check (in milliseconds)
+    "LogPath": "C:\\ProgramData\\IdleTracker\\idle-log.txt"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  }
+}
