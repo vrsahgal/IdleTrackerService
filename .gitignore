@@ -64,3 +64,6 @@ packages/
 *.tmp
 *.db
 *.opendb
+
+# Application settings (ignore secrets)
+appsettings.json
