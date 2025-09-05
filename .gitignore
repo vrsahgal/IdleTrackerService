@@ -6,17 +6,33 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.env
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
 
 # Build results
 [Bb]in/
 [Oo]bj/
 [Ll]og/
 [Dd]ebug/
+[Dd]ebugPublic/
 [Rr]elease/
+[Rr]eleases/
 x64/
 x86/
+[Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
+[Aa][Rr][Mm]64[Ee][Cc]/
+bld/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
 
 # Generated files
 *.dll
@@ -24,6 +40,7 @@ x86/
 *.pdb
 *.cache
 *.log
+*.tlog
 *.vspscc
 *.vssscc
 *.dbmdl
@@ -31,6 +48,7 @@ x86/
 
 # NuGet
 *.nupkg
+# NuGet Symbol Packages
 *.snupkg
 *.nuspec
 *.nuget.props
